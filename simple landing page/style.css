@@ -1,0 +1,81 @@
+*{padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+
+/*// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700
+
+.dancing-script-<uniquifier> {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}*/
+.nav1{
+    width: 100%;
+    height: 50%;
+    color: white;
+    background: #222f3e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav1 i{
+    margin:5px 5px; /*top bottom left right margin*/
+}
+.nav1 a{
+    text-decoration: underline;
+    color: white;
+    padding: 5px 10px;
+    background: #e67e22;
+}
+
+.nav2{
+    width: 100%;
+    height: 80%;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 70px;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 50px;
+}
+
+.hero-section {
+    width: 100%;
+    height: 100vh; /* or any specific height */
+    background: url('building.jpg') ;
+    background-size: cover;
+    background-position: center;
+
+
+    
+}
+
+.h-text{
+    max-width: 600px;
+    color: black;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.h-text a {  
+    padding: 5px 5px;
+    color: white;
+    background: red;
+}
+.h-text span{
+color: chartreuse;
+}
+.h-text h1{
+    color: black;
+}
